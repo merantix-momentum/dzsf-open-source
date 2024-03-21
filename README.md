@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This project is a collaboration between Merantix Momentum and the Deutsches Zentrum für Schienenverkehrsforschung beim Eisenbahn-Bundesamt to enable a fully automated noise mapping process across the whole Germany. The goal of the project is to segment noise insulating wall from aerial imagery near railways. This repository contains the exported ONNX model file and documentation for our machine learning solution tailored for the detection of noise insulating walls from aerial imagery near railways. 
+This project is a collaboration between **Merantix Momentum** and the **Deutsches Zentrum für Schienenverkehrsforschung beim Eisenbahn-Bundesamt** to enable a fully automated noise mapping process across the whole Germany. The goal of the project is to segment noise insulating wall from aerial imagery near railways. This repository contains the exported ONNX model file and documentation for our machine learning solution tailored for the detection of noise insulating walls from aerial imagery near railways. 
 
 ## Project Overview
 
@@ -32,4 +32,6 @@ Our project is licensed under the [MIT License](LICENSE).
 If you have any questions, suggestions, or feedback, feel free to reach out to us at [email@example.com](mailto:email@example.com).
 
 ## Prediction Examples
-![Prediction 1](images/prediction_1.png) ![Prediction 2](images/prediction_2.png) ![Prediction 3](images/prediction_3.png)
+<p align="center">
+    <img src="images/prediction_1.png " width="200" height="200"/> <img src="images/prediction_2.png " width="200" height="200"/>
+</p>
