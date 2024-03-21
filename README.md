@@ -33,5 +33,5 @@ If you have any questions, suggestions, or feedback, feel free to reach out to u
 
 ## Prediction Examples
 <p align="center">
-    <img src="images/prediction_1.png " width="200" height="200"/> <img src="images/prediction_2.png " width="200" height="200"/>
+    <img src="assets/images/prediction_1.png " width="400" height="400"/> <img src="assets/images/prediction_2.png " width="400" height="400"/>
 </p>
