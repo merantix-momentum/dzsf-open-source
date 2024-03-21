@@ -1,3 +1,4 @@
 theme: jekyll-theme-minimal
 title: Noise Insulating Wall Detection from Aerial Imagery using DinoV2
 description: In this project, we detect and segment noise insulating walls near rail ways from aerial imagery.
+logo: /images/merantix_momentum_logo.png
