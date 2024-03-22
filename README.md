@@ -29,7 +29,7 @@ Our model was trained on a dataset consisting of Orthophotos containing noise in
 
 To get started with using our model in QGIS, follow these steps:
 
-1. **Download the Model**: Download the exported ONNX model file (`model.onnx`) from the [repository](model.onnx).
+1. **Download the Model**: Download the exported ONNX model file from the latest [release](https://github.com/merantix-momentum/dzsf-open-source/releases/download/v0.0.1/model.zip).
 2. **Install QGIS**: If you haven't already, install QGIS on your machine. You can download it from the [official QGIS website](https://qgis.org/en/site/forusers/download.html).
 3. **Install the Deepness plugin**: Install the [Deepness plugin](https://plugins.qgis.org/plugins/deepness/) through QGIS.
 3. **Load the Model in QGIS**: Open QGIS and load the `model.onnx` file into the Deepness plugin.
