@@ -43,7 +43,7 @@ Our project is licensed under the [MIT License](LICENSE).
 
 ## Contact Us
 
-If you have any questions, suggestions, or feedback, feel free to reach out to us at [email@example.com](mailto:email@example.com).
+If you have any questions, suggestions, or feedback, feel free to reach out to us through [our contact form](https://en.merantix-momentum.com/kontakt).
 
 ## Prediction Examples
 <p align="center">
