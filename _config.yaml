@@ -1,5 +1,5 @@
-theme: jekyll-remote-theme
+theme: jekyll-theme-minimal
 title: Automated digital extraction of infrastructure objects surrounding railtracks
 description: In this project, we detect and segment noise insulating walls near rail ways from aerial imagery to enable a fully automated noise mapping across Germany.
 logo: /assets/images/merantix_momentum_logo.png
-google_analytics: G-FB09ERXDV9
+google_analytics:
