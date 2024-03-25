@@ -23,7 +23,7 @@ Our model was trained on a dataset consisting of Orthophotos containing noise in
 ## Key Features
 
 - **Model Export**: Our solution provides the exported ONNX model file, ready to be used for inference.
-- **Integration with QGIS**: Our solution seamlessly integrates with QGIS, enabling users to apply the trained model to their image data within the QGIS environment.
+- **Integration with QGIS**: Our solution seamlessly integrates with QGIS, enabling users to apply the trained model to their image data within the QGIS environment within the [Deepness plugin](https://plugins.qgis.org/plugins/deepness/).
 
 ## Getting Started
 
@@ -33,19 +33,23 @@ To get started with using our model in QGIS, follow these steps:
 2. **Install QGIS**: If you haven't already, install QGIS on your machine. You can download it from the [official QGIS website](https://qgis.org/en/site/forusers/download.html).
 3. **Install the Deepness plugin**: Install the [Deepness plugin](https://plugins.qgis.org/plugins/deepness/) through QGIS.
 3. **Load the Model in QGIS**: Open QGIS and load the `model.onnx` file into the Deepness plugin.
-4. **Configure Parameters**: Set the required parameters, including image resolution and processing options.
+4. **Configure Parameters**: When loading the model in Deepness, select the `Load default parameters` option.
 5. **Load a Raster Layer**: Add a raster layer from an aerial image near the railways. 
 6. **Run Inference**: Click "Run" to start the inference process and obtain segmentation results overlayed on the raster layer.
 
-## License
+The expected inference time for a 5000x5000 TiF file is 3-10 minutes depending on the hardware. For a more extensive user guide, please refer to [user instructions](user_instructions.pdf)
 
-Our project is licensed under the [MIT License](LICENSE).
+## Prediction Examples
+
+<p align="center">
+    <img src="assets/images/prediction_1.png " width="400" height="400"/> <img src="assets/images/prediction_2.png " width="400" height="400"/>
+</p>
+
 
 ## Contact Us
 
 If you have any questions, suggestions, or feedback, feel free to reach out to us through [our contact form](https://en.merantix-momentum.com/kontakt).
 
-## Prediction Examples
-<p align="center">
-    <img src="assets/images/prediction_1.png " width="400" height="400"/> <img src="assets/images/prediction_2.png " width="400" height="400"/>
-</p>
+## License
+
+Our project is licensed under the [MIT License](LICENSE).
