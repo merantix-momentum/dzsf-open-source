@@ -37,12 +37,12 @@ To get started with using our model in QGIS, follow these steps:
 5. **Load a Raster Layer**: Add a raster layer from an aerial image near the railways. 
 6. **Run Inference**: Click "Run" to start the inference process and obtain segmentation results overlayed on the raster layer.
 
-The expected inference time for a 5000x5000 TiF file is 3-10 minutes depending on the hardware. For a more extensive user guide, please refer to [user instructions](user_instructions.pdf)
+The expected inference time for a 5000x5000 TiF file is 3-10 minutes depending on the hardware. For a more extensive user guide, please refer to [user instructions](user_instructions.pdf).
 
 ## Prediction Examples
 
 <p align="center">
-    <img src="assets/images/prediction_1.png " width="400" height="400"/> <img src="assets/images/prediction_2.png " width="400" height="400"/>
+    <img src="assets/gifs/prediction_1.gif " width="400" height="400"/> <img src="assets/gifs/prediction_2.gif " width="400" height="400"/>
 </p>
 
 
