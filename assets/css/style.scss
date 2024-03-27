@@ -4,8 +4,7 @@
 @import "{{ site.theme }}";
 
 .wrapper {
-  width: 100%;
-  max-width:1200px;
+  width:1200px;
   // left side is 270
   // 1200-270 = 930
   // 30px free room
@@ -13,7 +12,7 @@
 }
 
 section {
-  width: 97%; /* Change width to 100% for responsiveness */
-  float: none; /* Remove float */
-  padding-bottom: 50px;
+  width:900px;
+  float:right;
+  padding-bottom:50px;
 }
