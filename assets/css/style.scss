@@ -4,15 +4,27 @@
 @import "{{ site.theme }}";
 
 .wrapper {
-  width:1200px;
-  // left side is 270
-  // 1200-270 = 930
-  // 30px free room
-  margin:0 auto;
+  width: 90%; /* Adjust the width as a percentage of the screen */
+  max-width: 1200px; /* Limit maximum width to 1200px */
+  margin: 0 auto;
 }
 
 section {
-  width:900px;
-  float:right;
-  padding-bottom:50px;
+  width: 70%; /* Adjust the width as a percentage of the screen */
+  float: right;
+  padding-bottom: 5%; /* Adjust padding as a percentage of the screen */
+}
+
+/* Add media query for smaller screens */
+@media screen and (max-width: 768px) {
+  .wrapper {
+    width: 90%; /* Adjust the width for smaller screens */
+    padding: 0 5%; /* Add padding to create space on smaller screens */
+  }
+
+  section {
+    width: 100%; /* Change width to 100% for responsiveness on smaller screens */
+    float: none; /* Remove float */
+    padding-bottom: 5%; /* Adjust padding as a percentage of the screen */
+  }
 }
