@@ -1,6 +1,6 @@
 ## Introduction
 
-This project is a collaboration between **Merantix Momentum** and **The German Center for Rail Traffic Research at the Federal Railway Authority** to enable a fully automated noise mapping process across the whole Germany. The goal of the project is to segment noise insulating wall from aerial imagery near railways. This repository contains the exported ONNX model file and documentation for our machine learning solution tailored for the detection of noise insulating walls from aerial imagery near railways.
+This project is a collaboration between **Merantix Momentum** and **The German Center for Rail Traffic Research at the Federal Railway Authority** (DZSF) to enable a fully automated noise mapping process across the whole Germany. The goal of the project is to segment noise insulating wall from aerial imagery near railways. This repository contains the exported ONNX model file and documentation for our machine learning solution tailored for the detection of noise insulating walls from aerial imagery near railways.
 The project is funded by the DZSF and the project page can be found on their [website](https://www.dzsf.bund.de/SharedDocs/Standardartikel/DZSF/Projekte/Projekt_130_Bestandserfassung_gleisnahe_infrastruktur.html).
 
 ## Project Overview
@@ -46,6 +46,7 @@ The expected inference time for a 5000x5000 TiF file is 3-10 minutes depending o
     <img src="assets/gifs/prediction_1.gif " width="400" height="400"/> <img src="assets/gifs/prediction_2.gif " width="400" height="400"/>
 </p>
 
+© GeoBasis-DE / BKG (2023)
 
 ## Contact Us
 
