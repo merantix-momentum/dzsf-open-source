@@ -12,7 +12,7 @@ Our project focuses on developing a machine learning solution to detect noise in
 Our model architecture is based on a Vision Transformer backbone with register tokens with a segmentation head on top. We use the check point from `vit_base_patch14_dinov2.lvd142m` from the [timm package](https://pypi.org/project/timm/) for the DINOv2-trained ViT. The segmentation head is a sequence of `3x3` convolutional layers with `ReLU` activations. The **frozen** backbone encodes the input image which is then processed by the segmentation head and upsampled to generate pixel-wise predictions. The following diagram illustrates our model architecture:
 
 <p align="center">
-    <img src="assets/images/model_architecture.svg" width="100%"/>
+    <img src="assets/images/model_architecture.png" width="100%"/>
 </p>
 
 
